@@ -2,8 +2,8 @@ console.log("JS Connected - Profile + Image Upload!");
 
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-const supabaseUrl = "https://pjzlrbjacxetuptntdfn.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBqemxyYmphY3hldHVwdG50ZGZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMyODYzODUsImV4cCI6MjA3ODg2MjM4NX0.n60koN_CiNOlXHknw-b8rbxb090-vz56wQEihQKc-Ps";
+const supabaseUrl = 'https://eajvasggldirerrkhgpc.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVhanZhc2dnbGRpcmVycmtoZ3BjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMzNDcxOTAsImV4cCI6MjA3ODkyMzE5MH0.dxCwtSwEGyU6zDCI8tvDhD5e_AiqJwJ4f1pC7AGvy8A';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 
